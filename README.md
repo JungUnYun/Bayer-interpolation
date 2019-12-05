@@ -36,6 +36,7 @@ Bayer interpolation using OpenMP
 
 ## Results
 Image : raw.RAW, size : 3264*2448, number of thread : 4
+
 MSE : 0.0020, bad pixels : 0.0081, DiffValue : -1039
 
 R and B channels is exactly same when I use round options. But G channel has 1 pixel value difference because of the padding.
